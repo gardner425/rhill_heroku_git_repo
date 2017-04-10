@@ -22,7 +22,7 @@ app = Flask(__name__)
 @app.route("/my/api", methods=['GET', 'PUT', 'POST', 'DELETE'])
 def ApiV1Echo():
 
-  rsp_data = "Echo:\nMethod: "
+  rsp_data = "Echo2:\nMethod: "
 
   if request.method == 'GET':
     rsp_data += "GET"
